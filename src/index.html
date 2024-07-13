@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the world of tattoos with our talented tattoo artist. Discover our gallery of stunning tattoo designs, read our articles, and contact us for professional tattoo services. Book your appointment now!"
+    />
+    <link rel="shortcut icon" href="./assets/icons/favicon.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preload" as="image" href="assets/img/main-img-1920x948.webp" />
+    <link rel="preload" as="image" href="assets/img/main-img-440x782.webp" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Raleway:ital,wght@0,400;0,500;0,600;1,400&family=Rozha+One&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Raleway:ital,wght@0,400;0,500;0,600;1,400&family=Rozha+One&display=swap"
+        rel="stylesheet"
+    /></noscript>
+
+    <script src="./js/main.js" defer></script>
+    <script src="./js/carousel.js" defer></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    <!-- Initialize Swiper -->
+    <script src="./js/swiper.js" defer></script>
+
+    <title>The Void Tattoo</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo__container">
+        <img
+          src="assets/img/the-void-tattoo-logo.webp"
+          alt="brand logo"
+          width="188"
+          height="90"
+          srcset="assets/img/the-void-tattoo-logo.webp 188w, assets/img/the-void-tattoo-logo-1.webp 282w"
+          sizes="(max-width: 768px) 282px, 188px"
+        />
+      </div>
+      <label for="nav-toggle" class="nav-toggle__label" aria-label="Menu">
+        <span></span>
+      </label>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a class="nav-item" href="#main-content">home</a></li>
+          <li><a class="nav-item" href="#about">about</a></li>
+          <li><a class="nav-item" href="#gallery">gallery</a></li>
+          <li><a class="nav-item" href="#video">interview</a></li>
+          <li><a class="nav-item" href="#articles">articles</a></li>
+          <li><a class="nav-item" href="#contact">contact</a></li>
+        </ul>
+        <div class="social__networks">
+          <ul>
+            <li>
+              <a aria-label="facebook" href="https://www.facebook.com/" target="_blank" class="icon-facebook"></a>
+            </li>
+            <li>
+              <a aria-label="instagram" href="https://www.instagram.com/" target="_blank" class="icon-instagram"></a>
+            </li>
+            <li>
+              <a aria-label="pinterest" href="https://www.pinterest.com/" target="_blank" class="icon-pinterest"></a>
+            </li>
+            <li><a aria-label="twitter" href="https://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+            <li><a aria-label="youtube" href="https://www.youtube.com/" target="_blank" class="icon-youtube"></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="main-content" id="main-content">
+        <div class="main-content__inner">
+          <h1>I’m void sir.</h1>
+          <p>Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.</p>
+          <button>read more</button>
+        </div>
+        <span>Tattoo expert</span>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about__inner">
+          <div class="number-img clip">01</div>
+          <div class="about__story">
+            <h2>
+              my <br />
+              story:
+            </h2>
+            <p>
+              In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa
+              tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.
+            </p>
+            <p>
+              Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed.
+              Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus
+              tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.
+            </p>
+            <button>know more</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <h2>
+          check my <br />
+          gallery:
+        </h2>
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper gallery-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/gallery-01.webp" alt="Portrait of a man with a hand tattoo" loading="lazy" />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/gallery-02.webp"
+                alt="Close-up of a woman displaying an arm tattoo"
+                loading="lazy"
+              />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/gallery-03.webp" alt="Man with a striking tattoo on his arm" loading="lazy" />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/gallery-04.webp" alt="Intricate tattoo on the left hand of a man" loading="lazy" />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/gallery-05.webp" alt="Woman with an elegant neck tattoo" loading="lazy" />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/gallery-06.webp" alt="Back tattoo on a man with intricate design" loading="lazy" />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/gallery-07.webp" alt="Tattoo on the left arm of a man with style" loading="lazy" />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/gallery-08.webp"
+                alt="Woman with a sophisticated tattoo on her left arm"
+                loading="lazy"
+              />
+              <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <img
+              src="./assets/img/gallery-01.webp"
+              width="465"
+              height="412"
+              loading="lazy"
+              alt="Portrait of a man with a hand tattoo"
+            />
+            <img
+              src="./assets/img/gallery-02.webp"
+              width="465"
+              height="540"
+              loading="lazy"
+              alt="Close-up of a woman displaying an arm tattoo"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              src="./assets/img/gallery-03.webp"
+              width="465"
+              height="540"
+              loading="lazy"
+              alt="Man with a striking tattoo on his arm"
+            />
+            <img
+              src="./assets/img/gallery-04.webp"
+              width="465"
+              height="412"
+              loading="lazy"
+              alt="Intricate tattoo on the left hand of a man"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              src="./assets/img/gallery-05.webp"
+              width="465"
+              height="412"
+              loading="lazy"
+              alt="Woman with an elegant neck tattoo"
+            />
+            <img
+              src="./assets/img/gallery-06.webp"
+              width="465"
+              height="540"
+              loading="lazy"
+              alt="Back tattoo on a man with intricate design"
+            />
+          </div>
+
+          <div class="column">
+            <img
+              src="./assets/img/gallery-07.webp"
+              width="465"
+              height="540"
+              loading="lazy"
+              alt="Tattoo on the left arm of a man with style"
+            />
+            <img
+              src="./assets/img/gallery-08.webp"
+              width="465"
+              height="412"
+              loading="lazy"
+              alt="Woman with a sophisticated tattoo on her left arm"
+            />
+          </div>
+        </div>
+        <button>view all</button>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="skills__list">
+          <ul>
+            <li>
+              <div class="circle-progress circle-1">
+                <div class="circle-progress__inner">90 <span class="percentage">%</span></div>
+              </div>
+              <span class="skill">full body tatto</span>
+            </li>
+            <li>
+              <div class="circle-progress circle-2">
+                <div class="circle-progress__inner">80 <span class="percentage">%</span></div>
+              </div>
+              <span class="skill">Safely Piercing</span>
+            </li>
+            <li>
+              <div class="circle-progress circle-3">
+                <div class="circle-progress__inner">75 <span class="percentage">%</span></div>
+              </div>
+              <span class="skill">Full colour tattoo</span>
+            </li>
+            <li>
+              <div class="circle-progress circle-4">
+                <div class="circle-progress__inner">95 <span class="percentage">%</span></div>
+              </div>
+              <span class="skill">Temporary tattoo</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="reviews">
+          <div class="reviews__card">
+            <span class="quotes">“</span>
+            <div class="carousel">
+              <!-- data will come from the spreadsheet -->
+            </div>
+          </div>
+
+          <nav class="reviews__pagination" aria-label="Reviews Carousel Pagination">
+            <button class="controls previous" aria-label="previous">
+              <img src="./assets/icons/arrow-left-lg.svg" loading="lazy" width="32" height="25" alt="Left arrow" />
+            </button>
+            <button class="controls next" aria-label="next">
+              <img src="./assets/icons/arrow-right-lg.svg" loading="lazy" width="32" height="25" alt="Right arrow" />
+            </button>
+          </nav>
+        </div>
+      </section>
+
+      <section class="video" id="video">
+        <div class="video__inner">
+          <p>“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”</p>
+          <div class="button-wrapper">
+            <div>
+              <button aria-label="play button"><span class="triangle"></span></button>
+            </div>
+            <span>watch it now</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="articles" id="articles" aria-label="Articles section">
+        <div class="articles__list">
+          <div class="card">
+            <a href="#">
+              <span class="articles__heading">articles:</span>
+              <img
+                src="./assets/img/article-1.webp"
+                loading="lazy"
+                alt="Tattoo artist creating design on client's arm"
+              />
+              <h3>What is the story behind tattooing</h3>
+              <span class="date">Feb 16, 2021</span>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#">
+              <span class="articles__heading">articles:</span>
+              <img
+                src="./assets/img/article-2.webp"
+                loading="lazy"
+                alt="Debunking tattoo myths: Separating fact from fiction"
+              />
+              <h3>Top 10 tattoo myths & misconceptions</h3>
+              <span class="date">Feb 17, 2021</span>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#">
+              <span class="articles__heading">articles:</span>
+              <img src="./assets/img/article-3.webp" loading="lazy" alt="Benefits of tattoos: emotional & artistic" />
+              <h3>Unbelievable benefits of doing tattoo</h3>
+              <span class="date">Feb 20, 2021</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div>
+          <h2>
+            Get in touch <br />
+            with me:
+          </h2>
+          <div class="contact__adresses">
+            <div class="address">
+              <h3>LA office</h3>
+              <p>
+                In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus
+              </p>
+              <ul>
+                <li class="maps">
+                  <a href="https://goo.gl/maps/h3BfsnNizMtpLr3DA" target="_blank">784 Norman Street, Los Angeles</a>
+                </li>
+                <li class="phone"><a href="tel:+499330493943">+49 93 30493943</a></li>
+                <li class="email"><a href="mailto:contact@templatesjungle.com">contact@templatesjungle.com</a></li>
+              </ul>
+              <button>Get location</button>
+            </div>
+
+            <div class="address">
+              <h3>NYC office</h3>
+              <p>
+                Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus
+              </p>
+              <ul>
+                <li>
+                  <a class="maps" href="https://goo.gl/maps/kXKzZ7Hjuc12gGZw7" target="_blank"
+                    >1630 Elm Drive, New York City</a
+                  >
+                </li>
+                <li><a class="phone" href="tel:+493436573355">+49 34 36573355</a></li>
+                <li><a class="email" href="mailto:contact@templatesjungle.com">contact@templatesjungle.com</a></li>
+              </ul>
+              <button>Get location</button>
+            </div>
+          </div>
+        </div>
+
+        <form>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            placeholder="Write your name here"
+            required
+            aria-label="Write your name here"
+          />
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Write your email address"
+            required
+            aria-label="Write your email address"
+          />
+          <input
+            type="text"
+            name="message"
+            id="message"
+            placeholder="Write your messages here"
+            required
+            aria-label="Write your messages here"
+          />
+          <button type="submit">send it</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__about">
+          <h4>About void tattoo</h4>
+          <p>Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus</p>
+          <ul class="footer__about-list">
+            <li>
+              <a class="maps-white" href="https://goo.gl/maps/kXKzZ7Hjuc12gGZw7" target="_blank"
+                >1630 Elm Drive, New York City</a
+              >
+            </li>
+            <li><a class="phone-white" href="tel:+493436573355">+49 34 36573355</a></li>
+            <li><a class="email-white" href="mailto:contact@templatesjungle.com">contact@templatesjungle.com</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__sitemap">
+          <h4>Useful links</h4>
+          <ul>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">My gallery</a></li>
+            <li><a href="#">My services</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+        </div>
+
+        <div class="working-time">
+          <h4>Working time</h4>
+          <ul>
+            <li>Mon - Tue / Appointment</li>
+            <li>Wed - Fri / 10:00 - 9:00pm</li>
+            <li>Sat / 10:00 - 6:00pm</li>
+            <li>Sun / no work on this day</li>
+          </ul>
+        </div>
+
+        <div class="footer__newsletter">
+          <h4>Get newsletter</h4>
+          <p>Elit duis porttitor massa tellus nun in velit arcu posuere integer.</p>
+          <form>
+            <input
+              required
+              type="email"
+              name="email-newsletter"
+              id="email-newsletter"
+              placeholder="Your Email Address"
+              aria-label="Your Email Here"
+            />
+            <button type="submit" value="">
+              <img src="assets/icons/telegram-plane.svg" loading="lazy" width="26" height="26" alt="Submit icon" />
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          @ 2023
+          <strong> <a href="https://www.linkedin.com/in/pauloh-moreira/" target="_blank">Paulo Moreira</a></strong
+          >. All rights reserved. Find the source code of this and other projects on my
+          <a href="https://github.com/paulohmoreira" target="_blank">Github page</a>.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

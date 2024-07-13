@@ -2,10 +2,10 @@
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-# Void Tattoo
+# Site Tattoo
 
 Landing page para divulgação e exposição de portifólio de uma pessoa tatuadora.
-Feito com HTML, SASS e Javascript.
+Feito com HTML, SASS e Javascript a partir do design figma: https://templatesjungle.com/downloads/void-tattoo-figma-template-for-tattoo-artists/
 
 <br>
 
@@ -20,10 +20,10 @@ vídeo, artigos e formas de contato.
 
 ```bash
 # Clone este repositório
-$ gh repo clone vivianur/void-tattoo
+$ gh repo clone vivianur/site-tattoo
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd void-tattoo
+$ cd site-tattoo
 
 # Instale as dependências
 $ npm install
